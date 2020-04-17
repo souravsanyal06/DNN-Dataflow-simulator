@@ -191,7 +191,7 @@ if __name__=='__main__':
                     print("Simulation finished")
                     f = open("../results/dict.txt", "w")
                     plot(stats,B_list)
-                    import pdb; pdb.set_trace()
+                    
                     f.write(str(stats))
                     f.close()
                     
