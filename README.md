@@ -12,11 +12,10 @@ b) Weight Dependent Input Zero - Weights are fetched and if they are zero, respe
 
 Calculates reduction in total DRAM transfers for sparse dataflow w.r.t dense dataflow
 
-
 In root directory, create an empty directory called results:
 mkdir results
 
-To run:
+## To run:
 Go to src/ directory
 
 python main.py -d cifar10 -m resnet18 -o t.txt
