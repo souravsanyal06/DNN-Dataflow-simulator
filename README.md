@@ -17,7 +17,9 @@ This program calculates reduction in total DRAM transfers for sparse dataflow w.
 ## Setup
 
 In root directory, create an empty directory called results:
+
 mkdir results
+
 python extract.py
 
 
