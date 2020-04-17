@@ -7,10 +7,12 @@ Two variants are modelled.
 data structures are fetched from DRAM independent of their values
 ## 2) Sparse dataflow -
 Two types -
-a) Input Dependent Weight Zero - Inputs are fetched and if they are zero, respective weights are not fetched
-b) Weight Dependent Input Zero - Weights are fetched and if they are zero, respective inputs are not fetched
+### a) Input Dependent Weight Zero -
+Inputs are fetched and if they are zero, respective weights are not fetched
+### b) Weight Dependent Input Zero -
+Weights are fetched and if they are zero, respective inputs are not fetched
 
-Calculates reduction in total DRAM transfers for sparse dataflow w.r.t dense dataflow
+This program calculates reduction in total DRAM transfers for sparse dataflow w.r.t dense dataflow
 
 In root directory, create an empty directory called results:
 mkdir results
