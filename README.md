@@ -14,8 +14,12 @@ Weights are fetched and if they are zero, respective inputs are not fetched
 
 This program calculates reduction in total DRAM transfers for sparse dataflow w.r.t dense dataflow
 
+## Setup
+
 In root directory, create an empty directory called results:
 mkdir results
+python extract.py
+
 
 ## To run:
 Go to src/ directory
