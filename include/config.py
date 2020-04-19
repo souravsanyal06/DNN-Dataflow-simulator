@@ -3,7 +3,7 @@ import os
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
-debug = 1
+debug = 0
 
 PE_height = 8
 PE_width = 8
