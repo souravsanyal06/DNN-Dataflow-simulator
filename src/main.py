@@ -189,13 +189,16 @@ if __name__=='__main__':
                     next_layer = name
                 else:
                     print("Simulation finished")
-                    f = open("../results/dict.txt", "w")
                     plot(stats,B_list)
-                    import pdb; pdb.set_trace()
+                    f = open("../results/dict.txt", "w")
                     f.write(str(stats))
                     f.close()
                     
                     exit()
+                    
+    print("Simulation finished")
+    del stats['end']
+    plot(stats,B_list)        
    
 
 
